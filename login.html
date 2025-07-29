@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify Login Clone</title>
+  <link rel="stylesheet" href="login.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h1 class="logo">Spotify</h1>
+      <h2>Log in to Spotify</h2>
+
+      <form class="login-form">
+        <label for="email">Email or username</label>
+        <input type="text" id="email" placeholder="Email or username" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password" required />
+
+        <div class="form-options">
+        
+          <a href="#" class="forgot-link">Forgot your password?</a>
+        </div>
+
+        <button type="submit" class="btn-login">Log In</button>
+      </form>
+
+      <div class="divider"><span>OR</span></div>
+
+      <div class="alt-login">
+        <button class="btn-social google">
+          <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" />
+          Continue with Google
+        </button>
+        <button class="btn-social facebook">
+          <img src="https://www.svgrepo.com/show/452196/facebook-1.svg" alt="Facebook" />
+          Continue with Facebook
+        </button>
+        <button class="btn-social apple">
+          <img src="https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap" alt="Apple" />
+          Continue with Apple
+        </button>
+      </div>
+
+      <p class="signup-text">Don't have an account? <a href="#">Sign up for Spotify</a></p>
+    </div>
+  </div>
+</body>
+</html>

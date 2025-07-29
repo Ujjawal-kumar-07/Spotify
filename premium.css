@@ -1,0 +1,198 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  height: 70px;
+}
+
+.logo {
+  font-size: 1.8em;
+  color: #1DB954;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover{
+    text-decoration:underline #FAEBD7;
+   
+}
+nav ul .brand:hover{
+    text-decoration: none;
+}
+
+nav ul li input{
+    width: 500px;
+    border-radius: 30px;
+    padding: 9px 0px 9px 20px;
+    border: none;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px green;
+}
+
+input {
+  transition: background-color 0.3s ease;
+}
+
+input:hover {
+  background-color: #FAEBD7;
+}
+
+
+.header-items{
+    margin-left: 15px;
+}
+.header-items .create{
+    margin-left: 17px;
+    padding-bottom:5px;
+   
+}
+.header-items .Premium {
+    margin-left: 20px;
+    padding-bottom:5px;
+}
+
+.header-items .Library{
+    margin-left: 40px;
+    padding-bottom:5px;
+}
+
+.header-items .user{
+    margin-left: 12px;
+    padding-bottom:5px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1DB954, #191414);
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta {
+  background-color: #fff;
+  color: #191414;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #1DB954;
+  color: #fff;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background-color: #181818;
+  border-radius: 12px;
+  padding: 30px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+
+.price {
+  font-size: 1.6em;
+  color: #1DB954;
+  margin: 15px 0;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan-card li {
+  margin: 8px 0;
+}
+
+.subscribe {
+  background-color: #1DB954;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.subscribe:hover {
+  background-color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #000;
+  font-size: 0.9em;
+  color: gray;
+}
